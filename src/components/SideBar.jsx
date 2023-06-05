@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { SiNotion } from "react-icons/si";
 import { FaBlogger } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
-import { AiOutlineClose } from "@react-icons/all-files/ai/AiOutlineClose";
+import { AiOutlineClose } from "react-icons/ai";
 
 // eslint-disable-next-line react/prop-types
 function SideBar({ isNavOpen, setIsNavOpen }) {
