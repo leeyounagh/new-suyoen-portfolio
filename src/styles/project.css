@@ -10,7 +10,7 @@
 
 .board {
   width: 80%;
-  height: 75%;
+  height: 80%;
   border-radius: 50px;
   background-color: #3c5087;
   position: relative;
@@ -85,4 +85,9 @@
 .project-desc > a {
   font-size: 1.5rem;
   font-weight: 900;
+}
+
+.page-icon img {
+  width: 1.8rem;
+  height: 1.8rem;
 }
