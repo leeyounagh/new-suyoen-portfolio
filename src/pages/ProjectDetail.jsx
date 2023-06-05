@@ -28,6 +28,7 @@ export default function ProjectDetail() {
             {projectDetailData && projectDetailData[projectId]?.function}
             <h2>- 개인 성과및 trouble shooting -</h2>
             <h3>
+              1.
               {projectDetailData &&
                 projectDetailData[projectId]?.personalAchievement1Title}
             </h3>
@@ -35,12 +36,14 @@ export default function ProjectDetail() {
             {projectDetailData &&
               projectDetailData[projectId]?.personalAchievement1}
             <h3>
+              2.
               {projectDetailData &&
                 projectDetailData[projectId]?.personalAchievement2Title}
             </h3>
             {projectDetailData &&
               projectDetailData[projectId]?.personalAchievement2}
             <h3>
+              3.
               {projectDetailData &&
                 projectDetailData[projectId]?.personalAchievement3Title}
             </h3>
@@ -48,12 +51,14 @@ export default function ProjectDetail() {
               projectDetailData[projectId]?.personalAchievement3}
 
             <h3>
+              4.
               {projectDetailData &&
                 projectDetailData[projectId]?.personalAchievement4Title}
             </h3>
             {projectDetailData &&
               projectDetailData[projectId]?.personalAchievement4}
             <h3>
+              5.
               {projectDetailData &&
                 projectDetailData[projectId]?.personalAchievement5Title}
             </h3>
