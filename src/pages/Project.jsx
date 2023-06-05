@@ -26,7 +26,7 @@ function Project() {
       setShowBoard(true);
     }, 2000);
   }, []);
-  console.log("테스트", isVideoLoaded);
+
   const pageController = (e) => {
     const { name } = e.target.dataset;
     setIsVideoLoaded(false);

@@ -3,6 +3,16 @@ import "../styles/projectvideo.css";
 import ValueShare from "../assets/valushare.mp4";
 import SamSamFarm from "../assets/samsamfarm.mp4";
 import HelloJeju from "../assets/헬로우제주.mp4";
+import animationData from "../data/129506-character-with-sunglass.json";
+import Lottie from "react-lottie";
+const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice",
+  },
+};
 
 export default function ProjectVideo({
   currentPage,
@@ -36,7 +46,9 @@ export default function ProjectVideo({
         {isVideoLoaded && (
           <source src={videoList[currentPage]} type="video/mp4" />
         )}
-        {isVideoLoaded === false && <h2>로딩중..</h2>}
+        {isVideoLoaded === false && (
+          <Lottie options={defaultOptions} height={500} width={500} />
+        )}
       </video>
     </aside>
   );
