@@ -9,4 +9,10 @@ export default defineConfig({
       external: ["react-router-dom"],
     },
   },
+  resolve: {
+    alias: {
+      "@react-icons/all-files/si/SiNotion":
+        "@react-icons/all-files/es/si/SiNotion.js",
+    },
+  },
 });
