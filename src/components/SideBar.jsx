@@ -2,9 +2,9 @@ import "../styles/sidebar.css";
 import sidebarData from "../data/sidebarData";
 import { v4 as uuidv4 } from "uuid";
 import { Link } from "react-router-dom";
-import { SiNotion } from "@react-icons/all-files/si/SiNotion";
-import { FaBlogger } from "@react-icons/all-files/fa/FaBlogger";
-import { ImGithub } from "@react-icons/all-files/im/ImGithub";
+import { SiNotion } from "react-icons/si";
+import { FaBlogger } from "react-icons/fa";
+import { ImGithub } from "react-icons/im";
 import { AiOutlineClose } from "@react-icons/all-files/ai/AiOutlineClose";
 
 // eslint-disable-next-line react/prop-types
