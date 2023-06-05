@@ -24,7 +24,7 @@ function Project() {
   useEffect(() => {
     setTimeout(() => {
       setShowBoard(true);
-    }, 1000);
+    }, 2000);
   }, []);
 
   const pageController = (e) => {
