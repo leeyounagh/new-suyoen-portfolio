@@ -2,7 +2,7 @@ import "../styles/project.css";
 import { useEffect, useState } from "react";
 import ProjectVideo from "../components/ProjectVideo";
 import Lottie from "react-lottie";
-import animationData from "../data/141572-space-boy-developer.json";
+import animationData from "../data/62102-space-soldier-on-rocket.json";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import ArrowImg from "../assets/arrow.svg";
@@ -26,7 +26,7 @@ function Project() {
       setShowBoard(true);
     }, 2000);
   }, []);
-
+  console.log("테스트", isVideoLoaded);
   const pageController = (e) => {
     const { name } = e.target.dataset;
     setIsVideoLoaded(false);

@@ -3,7 +3,7 @@ import "../styles/projectvideo.css";
 import ValueShare from "../assets/valushare.mp4";
 import SamSamFarm from "../assets/samsamfarm.mp4";
 import HelloJeju from "../assets/헬로우제주.mp4";
-import animationData from "../data/25898-rocket-launched-into-space.json";
+import animationData from "../data/141572-space-boy-developer.json";
 import Lottie from "react-lottie";
 const defaultOptions = {
   loop: true,
