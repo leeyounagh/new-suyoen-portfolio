@@ -7,4 +7,57 @@
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
+  align-items: center;
+  color: white;
+}
+.board-wrapper > .career-board {
+  width: 40%;
+  height: 100%;
+  border-radius: 50px;
+  background-color: #3c5087;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.board-wrapper > .career-board > h1 {
+  font-size: 2rem;
+}
+.board-wrapper > .career-board > h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.board-wrapper > .License-board > h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.board-wrapper > .License-board > h1 {
+  font-size: 2rem;
+}
+.board-wrapper > .License-board {
+  width: 40%;
+  height: 100%;
+  border-radius: 50px;
+  background-color: #3c5087;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.career-wrapper > .board-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 60%;
+}
+.board-wrapper > .License-board:hover {
+  background-color: #483d8b;
+}
+.board-wrapper > .career-board:hover {
+  background-color: #483d8b;
 }

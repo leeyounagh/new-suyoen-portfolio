@@ -17,7 +17,7 @@ const data = [
     link: "/education",
   },
   {
-    name: "career&Licence",
+    name: "career&License",
     link: "/career",
   },
 ];
