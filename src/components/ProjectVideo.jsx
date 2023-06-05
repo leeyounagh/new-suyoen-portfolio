@@ -4,9 +4,13 @@ import ValueShare from "../assets/valushare.mp4";
 import SamSamFarm from "../assets/samsamfarm.mp4";
 import HelloJeju from "../assets/헬로우제주.mp4";
 
-export default function ProjectVideo({ currentPage }) {
+export default function ProjectVideo({
+  currentPage,
+  isVideoLoaded,
+  setIsVideoLoaded,
+}) {
   const videoList = [ValueShare, SamSamFarm, HelloJeju];
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+
   const videoRef = useRef(null);
 
   useEffect(() => {
@@ -19,7 +23,6 @@ export default function ProjectVideo({ currentPage }) {
     setIsVideoLoaded(true);
   };
 
-  console.log(isVideoLoaded);
   return (
     <aside className="videoWrapper">
       <video

@@ -19,17 +19,17 @@ const defaultOptions = {
 function Project() {
   const [showBoard, setShowBoard] = useState(false);
   const [currentPage, setCurrentPage] = useState(0);
-
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
   // 페이징 처리
   useEffect(() => {
     setTimeout(() => {
       setShowBoard(true);
     }, 2000);
   }, []);
-
+  console.log("테스트", isVideoLoaded);
   const pageController = (e) => {
     const { name } = e.target.dataset;
-
+    setIsVideoLoaded(false);
     if (name === "next") {
       setCurrentPage((prev) => prev + 1);
     }
@@ -51,7 +51,11 @@ function Project() {
             transition: { duration: 1, delay: 0.5 },
           }}
         >
-          <ProjectVideo currentPage={currentPage} />
+          <ProjectVideo
+            currentPage={currentPage}
+            isVideoLoaded={isVideoLoaded}
+            setIsVideoLoaded={setIsVideoLoaded}
+          />
           <aside className="project">
             {projectData && (
               <>

@@ -5,6 +5,7 @@
   overflow: hidden;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
+  color: white;
 }
 
 .videoWrapper > .background-video {
