@@ -13,6 +13,8 @@ export default defineConfig({
     alias: {
       "@react-icons/all-files/si/SiNotion":
         "@react-icons/all-files/es/si/SiNotion.js",
+      "@react-icons/all-files/fa/FaBlogger":
+        "@react-icons/all-files/fa/FaBlogger.js",
     },
   },
 });
