@@ -46,10 +46,10 @@ export default function ProjectVideo({
         {isVideoLoaded && (
           <source src={videoList[currentPage]} type="video/mp4" />
         )}
-        {isVideoLoaded === false && (
-          <Lottie options={defaultOptions} height={500} width={500} />
-        )}
       </video>
+      {isVideoLoaded === false && (
+        <Lottie options={defaultOptions} height={500} width={500} />
+      )}
     </aside>
   );
 }
