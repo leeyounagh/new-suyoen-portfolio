@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/projectdetail.css";
 import projectDetailData from "../data/ProjectDetailData";
 import { useParams } from "react-router-dom";
-import ValueShare from "../assets/valueshare.mp4";
+import ValueShare from "../assets/valushare.mp4";
 import SamSamFarm from "../assets/samsamfarm.mp4";
 import HelloJeju from "../assets/헬로우제주.mp4";
 

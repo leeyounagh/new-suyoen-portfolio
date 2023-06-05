@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "../styles/projectvideo.css";
-import ValueShare from "../assets/valueshare.mp4";
+import ValueShare from "../assets/valushare.mp4";
 import SamSamFarm from "../assets/samsamfarm.mp4";
 import HelloJeju from "../assets/헬로우제주.mp4";
 
