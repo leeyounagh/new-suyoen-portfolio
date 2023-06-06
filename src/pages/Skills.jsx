@@ -18,7 +18,6 @@ import IconREACT from "../assets/icon_REACT.png";
 import IconStyled from "../assets/스타일드컴포넌트.png";
 import IconRedux from "../assets/리덕스.png";
 import SpaceMan from "../assets/spaceman.png";
-import SideBar from "../components/SideBar";
 import { data } from "../data/data";
 
 const RotateCanvas = () => {
@@ -172,7 +171,8 @@ const RotateCanvas = () => {
 
   return (
     <div className="rotate-canvas-wrapper">
-      <canvas ref={canvasRef}></canvas>
+      <canvas style={{ cursor: "pointer" }} ref={canvasRef}></canvas>
+
       <aside>
         <h1>{selected.title}</h1>
         <p>{selected.desc}</p>

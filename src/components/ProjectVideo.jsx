@@ -37,7 +37,6 @@ export default function ProjectVideo({
     }
   }, [currentPage]);
   const handleVideoLoad = () => {
-    // videoRef.current를 사용하여 비디오 요소에 접근합니다.
     setIsVideoLoaded(true);
   };
 

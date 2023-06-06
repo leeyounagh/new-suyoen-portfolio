@@ -5,6 +5,7 @@ import "../styles/Nudake.css";
 import image1 from "../assets/메인.png";
 import image2 from "../assets/2번.png";
 import image3 from "../assets/폭죽.png";
+import ScrubImage from "../assets/스크럽이미지.png";
 import {
   drawImageCenter,
   getAngle,
@@ -139,8 +140,8 @@ const Main = () => {
 
   return (
     <div className="main-wrapper">
-      <div className="circle"></div>
       <div className="nudake">
+        <img className="scrubImage" src={ScrubImage} alt="스크럽이미지"></img>
         <header>
           <h1>
             <a href="/">Suyoen</a>
@@ -161,6 +162,7 @@ const Main = () => {
             </a>
           </ul>
         </header>
+
         <canvas ref={canvasRef} />
       </div>
     </div>
