@@ -4,20 +4,20 @@ const data = [
     link: "/",
   },
   {
-    name: "skills",
+    name: "Skills",
     link: "/skill",
   },
   {
-    name: "projects",
+    name: "Projects",
     link: "/project",
   },
 
   {
-    name: "education",
+    name: "Education",
     link: "/education",
   },
   {
-    name: "career&License",
+    name: "Career&License",
     link: "/career",
   },
 ];

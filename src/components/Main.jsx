@@ -155,10 +155,10 @@ const Main = () => {
               <li>Projects</li>
             </a>
             <a href="/career">
-              <li>career&Licence</li>
+              <li>Career&License</li>
             </a>
             <a href="/education">
-              <li>education</li>
+              <li>Education</li>
             </a>
           </ul>
         </header>

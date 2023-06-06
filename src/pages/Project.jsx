@@ -61,6 +61,19 @@ function Project() {
               <>
                 <h1>{projectData[currentPage]?.title}</h1>
                 <main className="project-desc">
+                  <h2>Position: {projectData[currentPage]?.position}</h2>
+                  <h2>팀원구성: {projectData[currentPage]?.set}</h2>
+                  <h2>제작기간: {projectData[currentPage]?.date}</h2>
+                  <h2>사용언어: {projectData[currentPage]?.language}</h2>
+
+                  <Link
+                    target="_blank"
+                    rel="noreferrer"
+                    to={projectData[currentPage]?.github}
+                  >
+                    {projectData[currentPage]?.title} 깃허브로 가기..
+                  </Link>
+
                   <Link
                     target="_blank"
                     rel="noreferrer"
@@ -68,26 +81,13 @@ function Project() {
                   >
                     {projectData[currentPage]?.title} 바로가기..
                   </Link>
-                  <h2>Position: {projectData[currentPage]?.position}</h2>
-                  <h2>팀원구성: {projectData[currentPage]?.set}</h2>
-                  <h2>사용언어: {projectData[currentPage]?.language}</h2>
-                  <h2>제작기간: {projectData[currentPage]?.date}</h2>
-                  <h3>서비스 소개:</h3>
-                  <div>{projectData[currentPage]?.description}</div>
-                  <div>
-                    <Link
-                      target="_blank"
-                      rel="noreferrer"
-                      to={projectData[currentPage]?.github}
-                    >
-                      {projectData[currentPage]?.title} 깃허브로 가기..
-                    </Link>
-                  </div>
                   <Link
+                    target="_blank"
+                    rel="noreferrer"
                     className="detail"
                     to={`/project/${projectData[currentPage]?.id}`}
                   >
-                    개인성과 및 트러블슈팅 보러가기...
+                    개인성과 및 트러블슈팅 보러가기..
                   </Link>
                 </main>
               </>
