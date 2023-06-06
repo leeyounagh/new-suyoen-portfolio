@@ -26,7 +26,7 @@ function Project() {
       setShowBoard(true);
     }, 2000);
   }, []);
-  console.log("테스트", isVideoLoaded);
+
   const pageController = (e) => {
     const { name } = e.target.dataset;
     setIsVideoLoaded(false);
@@ -83,8 +83,11 @@ function Project() {
                       {projectData[currentPage]?.title} 깃허브로 가기..
                     </Link>
                   </div>
-                  <Link to={`/project/${projectData[currentPage]?.id}`}>
-                    go to the Detail...
+                  <Link
+                    className="detail"
+                    to={`/project/${projectData[currentPage]?.id}`}
+                  >
+                    개인성과 및 트러블슈팅 보러가기...
                   </Link>
                 </main>
               </>
