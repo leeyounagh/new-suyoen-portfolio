@@ -53,8 +53,7 @@ const projectDetailData = [
       "디바이스 데이터 1분간격 그래프 로직 구현시 쓰로틀링 처리 구현",
     personalAchievement3:
       "그래프 구현시 매번 데이터를 불러오는것은 성능상 문제 발생함을 인지",
-    personalAchievementDesc3:
-      "쓰로틀링 처리로 1분간격으로 데이터 get요청 로직 적용",
+    personalAchievementDesc3: " 1분간격으로 데이터 get요청 로직 적용",
     personalAchievement4Title:
       "메인페이지 유저 작물의 grade에 따른 작물렌더링 공통 컴포넌트 작용",
     personalAchievement4:
