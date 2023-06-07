@@ -87,7 +87,9 @@ function Project() {
                     className="detail"
                     to={`/project/${projectData[currentPage]?.id}`}
                   >
-                    개인성과 및 트러블슈팅 보러가기..
+                    <button className="impact-button">
+                      개인성과 및 트러블슈팅 보러가기..
+                    </button>
                   </Link>
                 </main>
               </>

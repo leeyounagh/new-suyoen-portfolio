@@ -7,7 +7,37 @@
   background-image: url("../assets/우주.gif");
   background-size: cover;
 }
+.impact-button {
+  width: 100%;
+  height: 4rem;
+  border: none;
+  background: none;
+  outline: none;
 
+  font-family: "LINESeedKR-Bd";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8rem;
+  padding: 10px 20px 10px 20px;
+  width: 100%;
+  height: 100%;
+  background-color: #66cdaa;
+  color: white;
+  /* border: 1px solid white; */
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.impact-button:hover {
+  border: 1px solid #66cdaa;
+  transform: scale(1.2);
+  color: white;
+}
 .board {
   width: 80%;
   height: 80%;
