@@ -34,7 +34,7 @@ export default function ProjectDetail() {
               </div>
               <h2>- 개인 성과및 trouble shooting -</h2>
               <div className="trouble-shooting-detail">
-                <h1>
+                <h1 style={{ fontSize: "1.6rem" }}>
                   1.
                   {projectDetailData &&
                     projectDetailData[projectId]?.personalAchievement1Title}
@@ -50,7 +50,7 @@ export default function ProjectDetail() {
                   projectDetailData[projectId]?.personalAchievementDesc1}
               </div>
               <div className="trouble-shooting-detail">
-                <h1>
+                <h1 style={{ fontSize: "1.6rem" }}>
                   2.
                   {projectDetailData &&
                     projectDetailData[projectId]?.personalAchievement2Title}
@@ -64,7 +64,7 @@ export default function ProjectDetail() {
                   projectDetailData[projectId]?.personalAchievementDesc2}
               </div>
               <div className="trouble-shooting-detail">
-                <h1>
+                <h1 style={{ fontSize: "1.6rem" }}>
                   3.
                   {projectDetailData &&
                     projectDetailData[projectId]?.personalAchievement3Title}
@@ -78,7 +78,7 @@ export default function ProjectDetail() {
                   projectDetailData[projectId]?.personalAchievementDesc3}
               </div>
               <div className="trouble-shooting-detail">
-                <h1>
+                <h1 style={{ fontSize: "1.6rem" }}>
                   4.
                   {projectDetailData &&
                     projectDetailData[projectId]?.personalAchievement4Title}
@@ -92,7 +92,7 @@ export default function ProjectDetail() {
                   projectDetailData[projectId]?.personalAchievementDesc4}
               </div>
               <div className="trouble-shooting-detail">
-                <h1>
+                <h1 style={{ fontSize: "1.6rem" }}>
                   5.
                   {projectDetailData &&
                     projectDetailData[projectId]?.personalAchievement5Title}
